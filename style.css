@@ -1,0 +1,149 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    margin: 0, auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://www.blackops.ca/wp-content/uploads/2019/02/milky-way-starry-sky-night-sky-star-night-sky-1444401-pxhere.com_.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    flex-basis: 100%;
+    border: 2px black solid;
+    background-color: rgb(189, 189, 189);
+    justify-content: center; 
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 125%;
+} 
+
+.primary {
+    color:white;
+    background-color:rgb(103, 217, 221);
+    border: 2px black solid;
+    margin-left: 93%;
+    margin-top: 1%;
+    box-shadow: 5px 5px 5px rgb(71, 71, 71);
+}
+
+.primary:hover {
+    background-color:rgb(111, 203, 206);
+}
+
+.note {
+    box-shadow: 10px 10px 5px rgb(71, 71, 71);
+    background-color: rgb(103, 217, 221);
+    border: 2px black solid;
+    height: 400px;
+    width: 20%;
+    margin: 20px;
+}
+
+.note .tools {
+    display:flex;
+    background-color: black;
+    justify-content: flex-end;
+    padding: 1%;    
+}
+
+.note .tools button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 120%;
+    margin-left: 1%;
+}
+
+.note .main {
+    height: 85%;
+    width: 95%; 
+    overflow: auto;
+    overflow-wrap: break-word;
+} 
+
+.note textarea {
+    outline: none;
+    border: 2px black solid;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 342px;
+    width: 94%;
+}
+
+.note .hidden {
+    display:none;
+}
+
+.container {
+    margin-top: 2%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(207, 207, 207);
+    flex-wrap: wrap;
+    padding-bottom: 4%;
+}
+
+.user-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.userIn {
+    display: flex;
+    margin: 2%;
+    width: 450px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+    
+}
+
+.add {
+    color:white;
+    background-color:rgb(103, 217, 221);
+    border: 2px black solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+}
+
+.list-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(103, 217, 221);
+    margin-top: 10px;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(71, 71, 71);
+}
+
+div .list {
+    
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.text p {
+    text-decoration: line-through;
+}
+
+p {
+    margin: 15px;
+}
